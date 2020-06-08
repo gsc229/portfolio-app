@@ -1,0 +1,51 @@
+.nav-bar{
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;  
+  background-color: #1B1C1D;
+  align-items: center;
+  h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    width: fit-content;
+    margin-right: 20px;
+    color: white;
+    position: relative;
+    align-self: flex-start;
+    cursor: pointer;
+
+    
+  }
+  
+
+
+  .left-controls{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    
+  }
+
+  .right-controls{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    
+  }
+
+  @media screen and (max-width: '500px') {
+    h1{
+      font-size: 20px;
+    }
+    .button{
+      font-size: 10px;
+    }
+  }
+
+  
+}
+

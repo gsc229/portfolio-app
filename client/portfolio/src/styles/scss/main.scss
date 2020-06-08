@@ -1,0 +1,53 @@
+.pushable{
+  //border: yellow 3px solid;
+  position: relative;
+  //top: 60px;
+}
+
+// an invisible, dummy tag for scrolling to the correct height 
+#top-menu-scroll-to{
+  //border: blue 2px solid;
+  position: relative;
+  top: -70px;
+  height: 70px;
+  margin: 0 auto;
+  @media screen and (max-width: '500px') {
+    top: -60px;
+  }
+}
+
+#side-bar{
+  display: block;
+  position: fixed;
+  top: 60px;
+  
+  .item{
+    color: #43B3E0;
+    
+    p{
+      color: white;
+      
+    }
+    &:hover{
+      color: yellow;
+    }
+  }
+
+  
+
+  .sidebar-icon{
+    font-size: 1.5rem;
+    color: inherit;
+    transition: color .8s;
+    &:hover{
+      color: yellow;
+    }
+  }
+
+  @media screen and (max-width: '500px') {
+    
+    top: 50px;
+    
+  }
+
+}

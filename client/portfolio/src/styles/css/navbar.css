@@ -1,0 +1,65 @@
+.nav-bar {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1B1C1D;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar h1 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 20px;
+  color: white;
+  position: relative;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  cursor: pointer;
+}
+
+.nav-bar .left-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.nav-bar .right-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-bar h1 {
+    font-size: 20px;
+  }
+  .nav-bar .button {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */
